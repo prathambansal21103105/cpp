@@ -1,0 +1,180 @@
+{
+	"folders": [
+		{
+			"name": "helloworld",
+			"path": "."
+		},
+		{
+			"name": "Python",
+			"path": "../Python"
+		},
+		{
+			"name": "buffer1",
+			"path": "../../Desktop/buffer1"
+		},
+		{
+			"name": "javascript",
+			"path": "../../Desktop/javascript"
+		},
+		{
+			"name": "zoom-clone-app-main",
+			"path": "../../Desktop/zoom-clone-app-main"
+		},
+		{
+			"name": "HackMasters-main",
+			"path": "../../Desktop/HackMasters-main"
+		},
+		{
+			"name": "google-meet-clone-master",
+			"path": "../../Desktop/google-meet-clone-master"
+		},
+		{
+			"name": "reactweb",
+			"path": "../../Desktop/reactweb"
+		},
+		{
+			"name": "ExpenseTracker",
+			"path": "../../Desktop/ExpenseTracker"
+		},
+		{
+			"name": "investCal",
+			"path": "../../Desktop/investCal"
+		},
+		{
+			"name": "userPro",
+			"path": "../../Desktop/userPro"
+		},
+		{
+			"name": "ticTacToe",
+			"path": "../../Desktop/ticTacToe"
+		},
+		{
+			"name": "reactArt",
+			"path": "../../Desktop/reactArt"
+		},
+		{
+			"name": "debugging",
+			"path": "../../Desktop/debugging"
+		},
+		{
+			"name": "newProject",
+			"path": "../../Desktop/newProject"
+		},
+		{
+			"name": "nyaProject",
+			"path": "../../Desktop/nyaProject"
+		},
+		{
+			"name": "nvaProject",
+			"path": "../../Desktop/nvaProject"
+		},
+		{
+			"name": "nvaNewProject",
+			"path": "../../Desktop/nvaNewProject"
+		},
+		{
+			"name": "OneHealthPoint_code",
+			"path": "../../Desktop/OneHealthPoint_code"
+		},
+		{
+			"name": "revise",
+			"path": "../../Desktop/revise"
+		},
+		{
+			"name": "cart",
+			"path": "../../Desktop/cart"
+		},
+		{
+			"name": "class",
+			"path": "../../Desktop/class"
+		},
+		{
+			"name": "database",
+			"path": "../../Desktop/database"
+		},
+		{
+			"name": "firebase",
+			"path": "../../Desktop/firebase"
+		},
+		{
+			"name": "reactHooks",
+			"path": "../../Desktop/reactHooks"
+		},
+		{
+			"name": "reactHooksNew",
+			"path": "../../Desktop/reactHooksNew"
+		},
+		{
+			"name": "forms",
+			"path": "../../Desktop/forms"
+		},
+		{
+			"name": "redux",
+			"path": "../../Desktop/redux"
+		},
+		{
+			"name": "reduxAdv",
+			"path": "../../Desktop/reduxAdv"
+		},
+		{
+			"name": "redux2",
+			"path": "../../Desktop/redux2"
+		},
+		{
+			"name": "reactRouter",
+			"path": "../../Desktop/reactRouter"
+		},
+		{
+			"name": "route",
+			"path": "../../Desktop/route"
+		},
+		{
+			"name": "java",
+			"path": "../../Desktop/java"
+		},
+		{
+			"path": "../../Desktop/auth"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ostream": "cpp",
+			"iostream": "cpp",
+			"vector": "cpp",
+			"numeric": "cpp",
+			"cmath": "cpp",
+			"__hash_table": "cpp",
+			"__split_buffer": "cpp",
+			"__tree": "cpp",
+			"array": "cpp",
+			"bitset": "cpp",
+			"deque": "cpp",
+			"initializer_list": "cpp",
+			"iterator": "cpp",
+			"list": "cpp",
+			"map": "cpp",
+			"queue": "cpp",
+			"random": "cpp",
+			"regex": "cpp",
+			"set": "cpp",
+			"stack": "cpp",
+			"string": "cpp",
+			"string_view": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"utility": "cpp",
+			"valarray": "cpp",
+			"memory": "cpp",
+			"ios": "cpp",
+			"__bit_reference": "cpp",
+			"filesystem": "cpp",
+			"forward_list": "cpp",
+			"new": "cpp",
+			"algorithm": "cpp",
+			"iosfwd": "cpp",
+			"chrono": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "buffer1",
+		"git.ignoreLimitWarning": true
+	}
+}

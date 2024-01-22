@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Python"
+		},
+		{
+			"path": "../../Desktop/Pythoncon/Revise"
+		},
+		{
+			"path": "../../Desktop/AI:ML"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ostream": "cpp",
+			"iostream": "cpp",
+			"stdio.h": "c",
+			"vector": "cpp",
+			"iosfwd": "cpp",
+			"string": "cpp",
+			"queue": "cpp",
+			"algorithm": "cpp",
+			"new": "cpp",
+			"array": "cpp",
+			"iterator": "cpp",
+			"string_view": "cpp",
+			"__split_buffer": "cpp",
+			"deque": "cpp",
+			"list": "cpp",
+			"ctime": "cpp",
+			"unordered_map": "cpp",
+			"map": "cpp"
+		}
+	}
+}

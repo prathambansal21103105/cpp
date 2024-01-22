@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Python"
+		},
+		{
+			"path": "../../Desktop/Web Dev/web_dev"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ostream": "cpp",
+			"iostream": "cpp",
+			"string": "cpp",
+			"vector": "cpp"
+		}
+	}
+}

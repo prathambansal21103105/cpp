@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Python"
+		},
+		{
+			"path": "../../Desktop/AI:ML"
+		},
+		{
+			"path": "../../Desktop/Web Dev"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ostream": "cpp",
+			"iostream": "cpp",
+			"queue": "cpp",
+			"unordered_map": "cpp",
+			"vector": "cpp",
+			"string": "cpp",
+			"filesystem": "cpp",
+			"iosfwd": "cpp",
+			"algorithm": "cpp",
+			"new": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "Web Dev"
+	}
+}

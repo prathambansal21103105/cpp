@@ -1,0 +1,152 @@
+#pragma GCC optimize("Ofast")
+#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
+#pragma GCC optimize("unroll-loops")
+#include <complex>
+#include <queue>
+#include <set>
+#include <unordered_set>
+#include <list>
+#include <chrono>
+#include <random>
+#include <iostream>
+#include <algorithm>
+#include <cmath>
+#include <string>
+#include <vector>
+#include <map>
+#include <unordered_map>
+#include <stack>
+#include <iomanip>
+#include <fstream>
+
+using namespace std;
+
+typedef long long ll;
+typedef long double ld;
+typedef pair<int,int> p32;
+typedef pair<ll,ll> p64;
+typedef pair<double,double> pdd;
+typedef vector<ll> v64;
+typedef vector<int> v32;
+typedef vector<vector<int> > vv32;
+typedef vector<vector<ll> > vv64;
+typedef vector<vector<p64> > vvp64;
+typedef vector<p64> vp64;
+typedef vector<p32> vp32;
+ll MOD = 998244353;
+double eps = 1e-12;
+#define forn(i,e) for(ll i = 0; i < e; i++)
+#define forsn(i,s,e) for(ll i = s; i < e; i++)
+#define rforn(i,s) for(ll i = s; i >= 0; i--)
+#define rforsn(i,s,e) for(ll i = s; i >= e; i--)
+#define endl "\n"
+#define dbg(x) cout<<#x<<" = "<<x<<ln
+#define mp make_pair
+#define pb push_back
+#define fi first
+#define se second
+#define INF 2e18
+#define fast_cin() ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
+#define all(x) (x).begin(), (x).end()
+#define sz(x) ((ll)(x).size())
+
+void remove(vector<long>&v, int index1){
+    v.erase(v.begin()+index1);
+}
+
+void solve(){
+    string s;
+    cin>>s;
+    string t;
+    cin>>t;
+    string b;
+    int i=s.length()-1;
+    int j=t.length()-1;
+    while(j>=0){
+        char si;
+        if(i<0){
+            si='0';
+        }
+        else{
+            si=s[i];
+        }
+        if(j<0){
+            cout<<-1<<endl;
+            return;
+        }
+        int f=si-'0';
+        int l=t[j]-'0';
+        if(l>=f){
+            int x=l-f;
+            char y='0'+x;
+            if(x>9 or x<0){
+                cout<<-1<<endl;
+                return;
+            }
+            b+=y;
+            i--;
+            j--;
+        }
+        else{
+            j--;
+            int l1=t[j]-'0';
+            int val=(l1*10)+l;
+            int x=val-f;
+            if(x>9 or x<0){
+                cout<<-1<<endl;
+                return;
+            }
+            if(f>=0){
+                char y='0'+x;
+                if(x>9 or x<0){
+                    cout<<-1<<endl;
+                    return;
+                }
+                b+=y;
+                i--;
+                j--;
+            }
+            else{
+                cout<<-1<<endl;
+                return;
+            }
+        }
+    }
+    if(j>=0 or i>=0){
+        cout<<-1<<endl;
+        return;
+    }
+    reverse(b.begin(),b.end());
+    string ans;
+    int flag=0;
+    for(int i=0;i<b.length();i++){
+        if(flag==0){
+            if(b[i]=='0'){
+                continue;
+            }
+            else{
+                flag=1;
+                ans+=b[i];
+            }
+        }
+        else{
+            ans+=b[i];
+        }
+    }
+    if(ans.length()==0){
+        cout<<"0"<<endl;
+        return;
+    }
+
+    cout<<ans<<endl;
+}
+int main()
+{
+    fast_cin();
+    ll t;
+    cin >> t;
+    while(t--){
+        solve();
+    }
+    return 0;
+}
