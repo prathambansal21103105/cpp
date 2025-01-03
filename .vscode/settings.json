@@ -1,7 +1,14 @@
 {
     "files.associations": {
         "ostream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "vector": "cpp",
+        "map": "cpp",
+        "string": "cpp",
+        "regex": "cpp",
+        "set": "cpp",
+        "__locale": "cpp",
+        "iosfwd": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
