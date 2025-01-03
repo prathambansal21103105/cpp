@@ -296,6 +296,10 @@ Triplet extendedEuclid(int a, int b){
     ans.y=smallAns.x - (a/b)*smallAns.y;
     return ans;
 }
+int mmInverse(int a, int m){
+    Triplet ans = extendedEuclid(a,m);
+    return ans.x;
+}
 
 struct Point{
     int x;
